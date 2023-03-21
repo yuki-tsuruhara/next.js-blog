@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilsStyles from "../styles/utils.module.css";
 import Link from "next/link";
-const name = "shin code";
+const name = "Engineer Blog";
 export const siteTitle = "Next.js Blog";
 
 const Layout = ({ children, home }) => {

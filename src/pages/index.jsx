@@ -41,7 +41,6 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section>
-        <h2>🗒 エンジニアブログ</h2>
         <div className={styles.grid}>
           {allPostsData.map(({ id, title, date, thumbnail }) => (
             <Airticle
